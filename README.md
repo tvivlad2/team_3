@@ -22,3 +22,8 @@ https://www.figma.com/design/mcc94u243UakSz2Ied9Zeh/VRNas?node-id=0-1&p=f.
 > Кар-Карыч: «Мамма мия! ...
 > Копатыч: «Укуси меня пчела! ...
 > Крош: «Ёлки-иголки!», «Оба-на!»
+
+```
+    index.html - Homepage
+    style.css - общие стили для всех страниц
+```
