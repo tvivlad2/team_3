@@ -270,3 +270,27 @@
   margin: 0 auto;
   margin-top: 50px;
 }
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 211px;
+  position: relative;
+}
+.testimonial .name,
+.testimonial .title {
+  position: relative;
+  z-index: 10;
+}
+.testimonial .circle-image {
+  width: 1250px;
+  height: 1250px;
+  position: absolute;
+  z-index: 1;
+  top: -111px;
+}
+.testimonial .circle-image img {
+  width: 100%;
+  height: 100%;
+}
