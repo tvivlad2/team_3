@@ -32,18 +32,6 @@
   color: #d1d1d1;
   margin-top: 12px;
 }
-.section-man .left .title_desc .button {
-  width: 200px;
-  margin-top: 32px;
-  height: 50px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
-}
 .section-man .left .additional {
   margin-top: 40px;
   display: flex;
@@ -276,4 +264,9 @@
   font-weight: 400;
   color: #d1d1d1;
   margin-top: 12px;
+}
+
+.screenimage {
+  margin: 0 auto;
+  margin-top: 50px;
 }

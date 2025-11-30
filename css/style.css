@@ -146,3 +146,12 @@ body {
   font-size: 14px;
   margin-top: 12px;
 }
+
+.btn {
+  display: inline-block;
+  padding: 18px 38px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
