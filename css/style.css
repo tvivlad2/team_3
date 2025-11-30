@@ -24,16 +24,16 @@ body {
   height: 52px;
   justify-content: space-between;
 }
-.header .logo {
+.logo {
   display: flex;
   align-items: center;
 }
-.header .logo img {
+.logo img {
   width: 38px;
   height: 30px;
   margin-right: 5px;
 }
-.header .logo div {
+.logo div {
   font-size: 20px;
   background: linear-gradient(
     91.75deg,
@@ -158,4 +158,68 @@ body {
   font-size: 14px;
   letter-spacing: 1.5px;
   background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
+
+.footer-title {
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+}
+.footer-link {
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .logotype .icons {
+  display: flex;
+  margin-top: 140px;
+}
+.footer .logotype .icons > div {
+  margin-right: 20px;
+}
+.footer-link {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.footer-link .link-image {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+.copyright {
+  position: relative;
+  z-index: 10;
+  margin: 0;
+}
+.copy {
+  margin: 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0%;
+  padding-top: 32px;
+  padding-bottom: 47px;
+
+  border-top: 0.5px solid;
+
+  border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+  border-image-slice: 1;
+}
+.back {
+  transform: rotate(180deg);
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  bottom: 0;
 }
