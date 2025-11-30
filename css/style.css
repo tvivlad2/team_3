@@ -86,4 +86,63 @@ body {
 .square {
   position: absolute;
   left: 0;
+  z-index: 1;
+}
+
+.section .name span {
+  background-image: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 500;
+}
+
+.section .title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.blur {
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  top: 250px;
+  left: 50px;
+  z-index: 1;
+
+  background: linear-gradient(
+    98.54deg,
+    rgba(28, 196, 249, 0.8) 0.72%,
+    rgba(254, 105, 254, 0.8) 90.69%
+  );
+  filter: blur(105px);
+  transform: rotate(-90deg);
+}
+
+.backgroundForBlocks {
+  background: #252532;
+
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    94.92deg,
+    rgba(255, 255, 255, 0.3) -0.29%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-image-slice: 1;
+}
+.backgroundForBlocks .reason .icon img {
+  width: 70px;
+  height: 70px;
+}
+.backgroundForBlocks .reason .icon {
+  margin-bottom: 40px;
+}
+.backgroundForBlocks .reason .title {
+  font-size: 20px;
+  font-weight: 400;
+}
+.backgroundForBlocks .reason .desc {
+  color: #b0b0b2;
+  font-size: 14px;
+  margin-top: 12px;
 }
