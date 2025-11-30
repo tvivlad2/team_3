@@ -12,9 +12,9 @@ body {
 }
 body {
   background: #18181b;
+  font-family: "Chakra Petch";
 }
 .header {
-  font-family: "Chakra Petch";
   color: white;
   padding: 31px 120px;
 }
@@ -76,4 +76,14 @@ body {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.section {
+  color: white;
+  margin: 0 120px;
+}
+
+.square {
+  position: absolute;
+  left: 0;
 }
