@@ -101,6 +101,10 @@ body {
   font-weight: 600;
   margin-bottom: 12px;
 }
+.section .desc {
+  font-weight: 300;
+  color: #d1d1d1;
+}
 .blur {
   position: absolute;
   width: 80%;
