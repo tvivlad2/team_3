@@ -464,3 +464,18 @@ body {
   align-items: center;
   background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
 }
+
+.ourtrusted {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourtrusted .trusted-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.ourtrusted .trusted-image img {
+  width: 80%;
+}

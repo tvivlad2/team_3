@@ -32,3 +32,31 @@
 .ourteam .images img {
   width: 24%;
 }
+
+.faq .lists {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.faq .lists > div {
+  padding: 24px;
+  width: 60%;
+  margin-top: 25px;
+}
+.faq .list-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.faq .list-drop {
+  border-top: 1px solid #ffffff59;
+  padding-top: 12px;
+}
+.faq .active {
+  border: 1px solid;
+
+  border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+
+  border-image-slice: 1;
+}
