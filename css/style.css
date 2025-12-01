@@ -172,10 +172,22 @@ body {
   line-height: 28px;
   letter-spacing: 0%;
   color: #ffffff;
+  position: relative;
+  z-index: 10;
 }
 .footer {
   display: flex;
+  position: relative;
+  z-index: 100;
   justify-content: space-between;
+}
+.footer .quicks > div {
+  position: relative;
+  z-index: 10;
+}
+.footer .logotype {
+  z-index: 10;
+  position: relative;
 }
 .footer .logotype .icons {
   display: flex;
@@ -204,8 +216,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  z-index: 10;
   font-weight: 300;
   line-height: 28px;
   letter-spacing: 0%;
@@ -216,13 +226,15 @@ body {
 
   border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
   border-image-slice: 1;
+
+  position: relative;
+  z-index: 1;
 }
 .back {
   transform: rotate(180deg);
   position: absolute;
-  left: 0;
-  z-index: 1;
   bottom: 0;
+  z-index: 1;
 }
 
 .subscribe {
