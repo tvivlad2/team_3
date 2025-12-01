@@ -196,7 +196,11 @@ body {
   position: relative;
   z-index: 100;
   justify-content: space-between;
+
+  margin-top: 180px;
+  margin-bottom: 30px;
 }
+
 .footer .quicks > div {
   position: relative;
   z-index: 10;
