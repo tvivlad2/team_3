@@ -1,0 +1,26 @@
+.aboutus {
+  margin-top: 190px;
+  display: flex;
+}
+.aboutus .left {
+  width: 100%;
+}
+.aboutus .left > div {
+  text-align: start;
+}
+.aboutus .right {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.aboutus .right img {
+  position: relative;
+  top: -50px;
+}
+.aboutus .right .blur {
+  width: 300px;
+  height: 300px;
+  top: 25%;
+  left: 40%;
+}
