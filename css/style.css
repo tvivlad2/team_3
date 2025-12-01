@@ -100,7 +100,6 @@ body {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 12px;
-  text-align: center;
 }
 .section .desc {
   font-weight: 300;
@@ -150,6 +149,23 @@ body {
   color: #b0b0b2;
   font-size: 14px;
   margin-top: 12px;
+}
+
+.whychooseus {
+  position: relative;
+  z-index: 10;
+}
+.whychooseus > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 60px 50px 60px;
+}
+.whychooseus .reason {
+  margin-right: 50px;
+}
+.whychooseus .reason:last-child {
+  margin-right: 0;
 }
 
 .btn {

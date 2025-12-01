@@ -61,23 +61,6 @@
   top: 284px;
 }
 
-.whychooseus {
-  position: relative;
-  z-index: 10;
-}
-.whychooseus > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 40px 60px 50px 60px;
-}
-.whychooseus .reason {
-  margin-right: 50px;
-}
-.whychooseus .reason:last-child {
-  margin-right: 0;
-}
-
 .aboutus {
   display: flex;
   align-items: end;
