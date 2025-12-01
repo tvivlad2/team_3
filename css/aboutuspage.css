@@ -1,24 +1,24 @@
-.aboutus {
+.abus {
   margin-top: 190px;
   display: flex;
 }
-.aboutus .left {
+.abus .left {
   width: 100%;
 }
-.aboutus .left > div {
+.abus .left > div {
   text-align: start;
 }
-.aboutus .right {
+.abus .right {
   width: 100%;
   display: flex;
   position: relative;
   justify-content: center;
 }
-.aboutus .right img {
+.abus .right img {
   position: relative;
   top: -50px;
 }
-.aboutus .right .blur {
+.abus .right .blur {
   width: 300px;
   height: 300px;
   top: 25%;

@@ -412,3 +412,56 @@ body {
   line-height: 28px;
   letter-spacing: 0%;
 }
+
+.aboutus {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.aboutus .left .image {
+  width: 550px;
+  height: 650px;
+}
+.aboutus .left .image img {
+  width: 100%;
+  height: 100%;
+}
+.aboutus .right {
+  margin-left: 130px;
+  margin-bottom: 15px;
+}
+.aboutus .right .name {
+  margin-bottom: 12px;
+}
+.aboutus .right .desc {
+  color: #d1d1d1;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+.aboutus .right .points ul {
+  list-style: none;
+}
+.aboutus .right .points li {
+  margin-bottom: 14px;
+  font-weight: 400;
+}
+.aboutus .right .points li img {
+  width: 14px;
+  height: 14px;
+  margin-right: 12px;
+}
+.aboutus .right .points li:last-child {
+  margin-bottom: 0;
+}
+.aboutus .right .points {
+  margin-bottom: 32px;
+}
+.aboutus .right .readmore {
+  width: 168px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+}
