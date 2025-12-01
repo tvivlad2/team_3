@@ -217,55 +217,6 @@
   border-image-slice: 1;
 }
 
-.why {
-  display: flex;
-  justify-content: space-between;
-}
-.why .left {
-  width: 550px;
-}
-.why .left .title {
-  margin-top: 12px;
-}
-.why .right {
-  width: 570px;
-  height: 660px;
-  position: relative;
-}
-.why .right img {
-  width: 100%;
-  height: 100%;
-}
-.why .right .blur {
-  width: 360px;
-  height: 200px;
-  top: 350px;
-  left: 100px;
-  opacity: 1;
-}
-.why .lists .element {
-  width: 100%;
-  margin-bottom: 48px;
-}
-.why .lists .element .element-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.why .lists .element .element-title span {
-  font-size: 20px;
-  font-weight: 500;
-}
-.why .lists .element .element-title {
-  padding: 12px 0;
-  border-bottom: 1px solid #ffffff59;
-}
-.why .lists .element .element-desc {
-  font-weight: 400;
-  color: #d1d1d1;
-  margin-top: 12px;
-}
-
 .screenimage {
   margin: 0 auto;
   margin-top: 50px;
@@ -421,18 +372,7 @@
   margin: 0;
   position: relative;
 }
-.articles-text {
-  margin-left: 120px;
-}
-.ourarticles .article-btn {
-  margin-right: 120px;
-  background: RGB(38, 38, 40);
-  border: 1px solid;
 
-  border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
-
-  border-image-slice: 1;
-}
 .ourarticles .populars {
   margin-top: 90px;
   position: relative;
@@ -476,47 +416,6 @@
   transform: rotate(340deg);
 }
 
-.subscribe {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 230px;
-  padding: 35px 75px;
-  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
-}
-.subscribe .text {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 58px;
-  letter-spacing: -0.5%;
-  width: 530px;
-}
-
-.subscribe .enteremail {
-  display: flex;
-  align-items: center;
-  background: #ffffff12;
-}
-.subscribe .enteremail span {
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0%;
-}
-.subscribe .enteremail .icon-email {
-  display: flex;
-  align-items: center;
-  padding: 16px;
-  padding-right: 8px;
-  justify-content: center;
-}
-.subscribe .enteremail .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-  background: #ffffff36;
-  margin-left: 80px;
-}
 .footer {
   margin-top: 180px;
   margin-bottom: 30px;
