@@ -24,3 +24,11 @@
   top: 25%;
   left: 40%;
 }
+.ourteam .images {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.ourteam .images img {
+  width: 24%;
+}
