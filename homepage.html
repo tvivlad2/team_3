@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/homepage.css" />
-    <title>Без названия</title>
+    <title>Homepage</title>
   </head>
   <body>
     <div class="header">
@@ -38,8 +38,8 @@
     <section class="section section-man">
       <div class="left">
         <div class="title_desc">
-          <div class="title">Immerse Yourself</div>
-          <div class="title">in Virtual Reality</div>
+          <div style="text-align: start" class="title">Immerse Yourself</div>
+          <div style="text-align: start" class="title">in Virtual Reality</div>
           <div class="desc">
             Experience Unforgettable Events in VR. Bring your events to life
             like never before with our VR services
@@ -289,11 +289,21 @@
       </div>
     </section>
     <section class="section getstart">
-      <div style="text-align: center; width: 880px; margin: 150px auto 0 auto">
+      <div
+        style="
+          margin-top: 150px;
+          display: flex;
+          text-align: center;
+          flex-direction: column;
+          align-items: center;
+        "
+      >
         <div class="name"><span>HOW TO GET STARTED</span></div>
-        <div class="title">Bringing Your Virtual Reality Dreams to Life</div>
+        <div class="title" style="max-width: 880px">
+          Bringing Your Virtual Reality Dreams to Life
+        </div>
       </div>
-      <div style="width: 1200px; height: 522px" class="screenimage">
+      <div class="screenimage">
         <img
           style="width: 100%; height: 100%"
           src="./image/screen.png"
@@ -388,18 +398,14 @@
       </div>
     </section>
     <section class="section ourarticles">
-      <div
-        style="
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-        "
-      >
+      <div class="arcticle-styles">
         <div class="articles-text">
           <div class="name"><span>OUR ARTICLES</span></div>
-          <div class="title">Stay Up-to-Date with Our VR Insights</div>
+          <div class="title" style="text-align: start">
+            Stay Up-to-Date with Our VR Insights
+          </div>
         </div>
-        <div class="article-btn btn">SEE ALL</div>
+        <div style="margin-right: 120px" class="article-btn btn">SEE ALL</div>
       </div>
       <div class="populars">
         <div class="article-title">Popular Article</div>
@@ -524,9 +530,7 @@
     </section>
     <section class="section copyright">
       <div class="copy">© Copyright 2023, All Rights Reserved</div>
-      <div class="back">
-        <img src="./image/back.svg" alt="" />
-      </div>
+      <img class="back" src="./image/back.svg" alt="" />
     </section>
   </body>
 </html>
