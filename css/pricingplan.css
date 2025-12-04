@@ -1,0 +1,375 @@
+﻿.nav ul li:nth-child(4) {
+    font-weight: 600;
+}
+
+.nav ul li:first-child {
+    font-weight: 300;
+}
+
+.ellipse-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ellipse-bg {
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-content {
+    color: #FFFFFF;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+    .hero-content h1 {
+        font-size: 64px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+    .breadcrumb::after {
+        content: "";
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1280px;
+        height: 1px;
+        background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    }
+
+    .breadcrumb span:not(:last-child)::after {
+        content: ">";
+        margin-left: 10px;
+        color: white;
+    }
+
+    .breadcrumb .active {
+        font-weight: 500;
+        color: white;
+    }
+
+    .breadcrumb span:not(.active) {
+        color: #D1D1D1;
+    }
+
+.pricing-section {
+    padding: 120px 120px 80px;
+    background: #18181b;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    position: relative;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-subtitle {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.section-description {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #D1D1D1;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    margin-top: 60px;
+}
+
+.pricing-card {
+    background: #252532;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    padding: 40px 30px;
+    text-align: left;
+}
+
+.pricing-card--featured {
+    background: linear-gradient(#252532, #252532) padding-box, linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    position: relative;
+}
+
+.plan-header {
+    margin-bottom: 20px;
+}
+
+.plan-name {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.plan-price {
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 62px;
+    font-weight: 700;
+    color: white;
+    background: none;
+    -webkit-text-fill-color: white;
+}
+
+.period {
+    font-size: 16px;
+    color: #71717A;
+}
+
+.plan-description {
+    font-size: 16px;
+    color: #B0B0B2;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.plan-features {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+    .plan-features li {
+        color: white;
+        margin-bottom: 15px;
+        font-weight: 600;
+        padding-left: 30px;
+        position: relative;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+        .plan-features li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 16px;
+            height: 16px;
+            background-image: url('../image/icon/marker-list.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+.trial-button {
+    width: 100%;
+    padding: 15px 20px;
+    background: #FFFFFF0F;
+    border: 2px solid;
+    border-image: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%) 1;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.pricing-card--featured .trial-button {
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    border: none;
+}
+
+.why {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .why .right {
+        width: 45%;
+        margin-top: 100px;
+    }
+
+    .why .left {
+        width: 570px;
+        height: 660px;
+        position: relative;
+    }
+
+        .why .left img {
+            margin-top: -50px;
+        }
+
+    .why .lists .element {
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+        .why .lists .element .element-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+            .why .lists .element .element-title span {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+        .why .lists .element .element-title {
+            padding: 12px 0;
+            border-bottom: 1px solid #ffffff59;
+        }   
+
+        .why .lists .element .element-desc {
+            font-weight: 400;
+            color: #d1d1d1;
+            margin-top: 12px;
+        }
+
+.faq-section {
+    margin-top: 80px;
+    padding: 0 120px;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+    .faq-header .name span {
+        background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .faq-header .title {
+        font-size: 48px;
+        font-weight: 700;
+        margin: 15px 0;
+        color: white;
+    }
+
+.faq-description {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #D1D1D1;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.faq-items {
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: #252532;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    padding: 28px 32px;
+    width: 100%;
+}
+
+    .faq-item.active {
+        background: rgba(37, 37, 50, 0.8);
+        border: 1px solid;
+        border-image-source: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+        border-image-slice: 1;
+    }
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+    .faq-question::after {
+        content: '';
+        display: none;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: #FFFFFF59;
+    }
+
+.faq-item.active .faq-question::after {
+    display: block;
+}
+
+    .faq-question span {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        flex: 1;
+        padding-right: 20px;
+    }
+
+.faq-answer {
+    margin-top: 20px;
+    color: #B0B0B2;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    display: none;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+}
