@@ -6,78 +6,18 @@
     font-weight: 300;
 }
 
-.ellipse-container {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.namepage .location {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  position: relative;
+  z-index: 10;
 }
-
-.ellipse-bg {
-    width: 700px;
-    height: 700px;
-    object-fit: contain;
-}
-
-.hero-section {
-    position: relative;
-    width: 100%;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.hero-content {
-    color: #FFFFFF;
-    font-family: "Chakra Petch", sans-serif;
-    text-align: center;
-    margin-top: 0px;
-}
-
-    .hero-content h1 {
-        font-size: 64px;
-        font-weight: 700;
-        margin-bottom: 20px;
-    }
-
-.breadcrumb {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    font-size: 16px;
-    font-weight: 300;
-    position: relative;
-    margin-bottom: 30px;
-}
-
-    .breadcrumb::after {
-        content: "";
-        position: absolute;
-        bottom: -100px;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 1280px;
-        height: 1px;
-        background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
-    }
-
-    .breadcrumb span:not(:last-child)::after {
-        content: ">";
-        margin-left: 10px;
-        color: white;
-    }
-
-    .breadcrumb .active {
-        font-weight: 500;
-        color: white;
-    }
-
-    .breadcrumb span:not(.active) {
-        color: #D1D1D1;
-    }
 
 .pricing-section {
     padding: 120px 120px 80px;
