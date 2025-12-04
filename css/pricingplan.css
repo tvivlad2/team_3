@@ -6,19 +6,6 @@
     font-weight: 300;
 }
 
-.namepage .location {
-  display: flex;
-  width: 150px;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  line-height: 100%;
-  letter-spacing: 0%;
-
-  position: relative;
-  z-index: 10;
-}
-
 .pricing-section {
     padding: 120px 120px 80px;
     background: #18181b;
