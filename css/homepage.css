@@ -158,22 +158,22 @@
   flex-direction: column;
   margin-top: 211px;
   position: relative;
+  margin-bottom: 100px;
 }
 .testimonial .name,
 .testimonial .title {
   position: relative;
   z-index: 10;
 }
-.testimonial .circle-image {
-  width: 1250px;
-  height: 1250px;
+.testimonial-pos {
+  position: absolute;
+  top: 115px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .testimonial .circle-image img {
   width: 100%;
-  position: absolute;
-  left: 0;
-  z-index: 1;
-  top: -111px;
 }
 
 .ourpricing .price {
