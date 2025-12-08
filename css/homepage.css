@@ -321,8 +321,9 @@
   margin: 100px 0 30px 0;
 }
 .popular-image {
-  width: 900px;
+  width: 800px;
   position: relative;
+  z-index: 10;
 }
 .popular-image img {
   width: 100%;
@@ -365,10 +366,6 @@
   position: relative;
 }
 
-.popular-article {
-  position: relative;
-  z-index: 10;
-}
 .recentarticles {
   width: 55%;
   height: 600px;
@@ -443,4 +440,8 @@
   line-height: 100%;
   letter-spacing: -0.5%;
   margin-bottom: 30px;
+}
+
+.article-btn:hover {
+  cursor: pointer;
 }
