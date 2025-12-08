@@ -1,0 +1,14 @@
+.path > * {
+  margin-right: 5px;
+}
+.path {
+  font-weight: 600;
+  margin: 50px 0;
+}
+.last-path {
+  font-weight: 400;
+}
+.path img {
+  width: 8px;
+  height: 8px;
+}

@@ -483,3 +483,9 @@ body {
 .ourtrusted .trusted-image img {
   width: 80%;
 }
+
+.design-text {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
