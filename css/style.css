@@ -415,21 +415,15 @@ body {
 
 .aboutus {
   display: flex;
-  align-items: end;
   justify-content: space-between;
   margin-top: 120px;
 }
-.aboutus .left .image {
-  width: 550px;
-  height: 650px;
-}
 .aboutus .left .image img {
-  width: 100%;
-  height: 100%;
+  width: 600px;
 }
 .aboutus .right {
+  margin-top: 50px;
   margin-left: 130px;
-  margin-bottom: 15px;
 }
 .aboutus .right .name {
   margin-bottom: 12px;
@@ -512,6 +506,28 @@ body {
   .nav ul li {
     padding: 0 30px;
   }
+  .aboutus .left .image img {
+    width: 500px;
+  }
+}
+@media (max-width: 1175px) {
+  .whychooseus > div {
+    flex-direction: column;
+  }
+  .whychooseus .reason {
+    margin-bottom: 50px;
+    margin-right: 0;
+    min-height: 200px;
+  }
+  .whychooseus .reason:last-child {
+    margin-bottom: 0;
+  }
+  .aboutus {
+    flex-direction: column;
+  }
+  .aboutus .right {
+    margin-left: 0;
+  }
 }
 @media (max-width: 1050px) {
   .nav ul li {
@@ -527,16 +543,15 @@ body {
     display: flex;
   }
 }
-@media (max-width: 1175px) {
-  .whychooseus > div {
-    flex-direction: column;
+
+@media (max-width: 815px) {
+  .header {
+    padding: 31px 16px;
   }
-  .whychooseus .reason {
-    margin-bottom: 50px;
-    margin-right: 0;
-    min-height: 200px;
+  .section {
+    margin: 0 16px;
   }
-  .whychooseus .reason:last-child {
-    margin-bottom: 0;
+  .aboutus {
+    margin-top: 100px;
   }
 }

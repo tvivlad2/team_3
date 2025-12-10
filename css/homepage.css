@@ -140,6 +140,9 @@
 
   border-image-slice: 1;
 }
+.ourservice .blocks .column {
+  flex: 1;
+}
 .ourservice .blocks .column .backgroundForBlocks:hover {
   border: 1px solid;
 
@@ -183,10 +186,7 @@
   width: 600px;
 }
 .ourpricing .left {
-  width: 65%;
-}
-.ourpricing .right {
-  width: 400px;
+  width: 75%;
 }
 .ourpricing .left > div {
   margin: 42px 55px;
@@ -233,7 +233,7 @@
 .ourpricing .startfrom {
   display: inline-block;
   position: absolute;
-  right: 260px;
+  right: 10%;
   bottom: -50px;
   z-index: 10;
 }
@@ -446,6 +446,41 @@
   cursor: pointer;
 }
 
+.why {
+  margin-top: 150px;
+}
+.getstart > div:first-child {
+  margin-top: 150px;
+}
+
+@media (max-width: 1380px) {
+  .ourpricing .left > div {
+    width: 95%;
+  }
+  .ourpricing .startfrom {
+    right: 2%;
+  }
+}
+@media (max-width: 1280px) {
+  .ourpricing .left {
+    width: 95%;
+  }
+  .ourpricing .left > div {
+    border: none;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+  }
+  .ourpricing .startfrom {
+    right: 350px;
+  }
+  .price-add .price-text {
+    width: 90%;
+  }
+  .ourpricing .right {
+    width: 100%;
+    height: 400px;
+  }
+}
 @media (max-width: 1360px) {
   .section-man {
     position: relative;
@@ -465,5 +500,65 @@
     display: flex;
     justify-content: end;
     align-items: end;
+  }
+}
+@media (max-width: 1175px) {
+  .why {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .why .left {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .getstart > div:first-child {
+    margin-top: 100px;
+  }
+  .testimonial {
+    margin-top: 100px;
+  }
+  .testimonial .circle-image img {
+    width: 880px;
+  }
+  .testimonial .title {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  .section-man .left .additional {
+    flex-direction: column;
+    align-items: start;
+  }
+  .section-man .left .additional .video {
+    margin-left: 0;
+    margin: 144px 0;
+  }
+  .section-man .right img {
+    width: 350px;
+    height: 420px;
+  }
+  .ourservice .blocks {
+    flex-direction: column;
+  }
+  .ourservice .blocks .column:nth-child(2) {
+    margin-top: 0;
+  }
+  .ourservice .blocks .column:nth-child(3) {
+    margin-top: 0;
+  }
+  .ourservice .block {
+    width: 100%;
+  }
+  .ourservice .column:last-child .block:last-child {
+    margin-bottom: 0;
+  }
+  .why {
+    margin-top: 100px;
+  }
+  .ourtrusted {
+    margin-top: 150px;
+  }
+  .ourtrusted .title {
+    text-align: center;
   }
 }
