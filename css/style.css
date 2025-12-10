@@ -13,6 +13,7 @@ body {
 body {
   background: #18181b;
   font-family: "Chakra Petch";
+  overflow-x: hidden;
 }
 .header {
   color: white;
