@@ -445,3 +445,33 @@
 .article-btn:hover {
   cursor: pointer;
 }
+
+@media (max-width: 1360px) {
+  .section-man {
+    flex-direction: column;
+  }
+  .section-man .left .additional {
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+  }
+  .section-man .left .additional .video {
+    margin-left: 0;
+    position: absolute;
+    top: 350%;
+  }
+  .section-man .right .image {
+    position: relative;
+    display: flex;
+    justify-content: end;
+  }
+  .section-man .right img {
+    width: 350px;
+    height: 420px;
+  }
+  .section-man .right .blur {
+    height: 100px;
+    width: 400px;
+    top: 160px;
+  }
+}

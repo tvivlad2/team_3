@@ -112,7 +112,6 @@ body {
   width: 80%;
   height: 60%;
   top: 250px;
-  left: 50px;
   z-index: 1;
 
   background: linear-gradient(
@@ -500,4 +499,25 @@ body {
   padding-bottom: 2px;
   padding-left: 10px;
   background: #ffffff4d;
+}
+
+.header .burger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+  border-image-slice: 1;
+  font-weight: 300;
+}
+
+@media (max-width: 1360px) {
+  .header .nav,
+  .header .contactus {
+    display: none;
+  }
+  .header .burger {
+    display: flex;
+    padding: 14px;
+  }
 }
