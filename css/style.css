@@ -512,12 +512,7 @@ body {
 }
 
 @media (max-width: 1360px) {
-  .header .nav,
-  .header .contactus {
-    display: none;
-  }
-  .header .burger {
-    display: flex;
-    padding: 14px;
+  .nav ul li {
+    padding: 0 30px;
   }
 }

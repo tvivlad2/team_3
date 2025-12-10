@@ -474,4 +474,10 @@
     width: 400px;
     top: 160px;
   }
+  .whychooseus > div {
+    flex-direction: column;
+  }
+  .whychooseus .reason {
+    margin-bottom: 50px;
+  }
 }
