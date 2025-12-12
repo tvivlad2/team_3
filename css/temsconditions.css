@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 2;
 }
 
 .side-image {
@@ -31,15 +32,18 @@
     height: 520px;
     overflow: hidden;
     position: relative;
+    z-index: 1;
 }
 
 .side-image.left {
-    margin-left: -300px;
+    left: -125px;
     transform: scaleX(-1);
+    position: absolute;
 }
 
 .side-image.right {
-    margin-right: -300px;
+    right: -100px;
+    position: absolute;
 }
 
 .side-image::after {
@@ -96,7 +100,7 @@
     max-width: 650px;
     align-items: center;
     margin-bottom: 15px;
-    
+
 }
 
 .center-content .section-text{
