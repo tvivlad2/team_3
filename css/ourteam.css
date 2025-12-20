@@ -1,3 +1,7 @@
+.nav ul li:nth-child(4) {
+  font-weight: 500;
+}
+
 .ourteam-images {
   margin-top: 50px;
   display: flex;
