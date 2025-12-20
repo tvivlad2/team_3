@@ -89,3 +89,44 @@
     rgba(32, 32, 41, 0) 100%
   );
 }
+
+@media (max-width: 1175px) {
+  .ourteam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ourteam-images {
+    width: 70%;
+  }
+  .team-element {
+    width: 45%;
+  }
+  .person-social img {
+    width: 40%;
+  }
+  .person-info {
+    bottom: 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  .person-info {
+    bottom: 15px;
+  }
+}
+@media (max-width: 715px) {
+  .ourteam-images {
+    width: 100%;
+    justify-content: center;
+  }
+  .team-element {
+    width: 70%;
+  }
+}
+
+@media (max-width: 815px) {
+  .information {
+    margin-bottom: 100px;
+  }
+}
