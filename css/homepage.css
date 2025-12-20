@@ -1,3 +1,6 @@
+.nav ul li:nth-child(1) {
+  font-weight: 500;
+}
 .section-man {
   display: flex;
   justify-content: space-between;
@@ -531,9 +534,6 @@
   }
   .popular-article {
     margin-bottom: 70px;
-  }
-  .arcticle-styles .article-btn {
-    display: none;
   }
 }
 @media (max-width: 900px) {
