@@ -69,30 +69,6 @@
   margin-top: 50px;
 }
 
-.testimonial {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 211px;
-  position: relative;
-  margin-bottom: 100px;
-}
-.testimonial .name,
-.testimonial .title {
-  position: relative;
-  z-index: 10;
-}
-.testimonial-pos {
-  position: absolute;
-  top: 115px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.testimonial .circle-image img {
-  width: 100%;
-}
-
 .article-title {
   font-weight: 600;
   font-size: 28px;
@@ -319,15 +295,6 @@
   }
   .getstart > div:first-child {
     margin-top: 100px;
-  }
-  .testimonial {
-    margin-top: 100px;
-  }
-  .testimonial .circle-image img {
-    width: 880px;
-  }
-  .testimonial .title {
-    text-align: center;
   }
 
   .recentarticles {

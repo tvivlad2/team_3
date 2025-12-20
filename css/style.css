@@ -718,6 +718,30 @@ a {
   border-image-slice: 1;
 }
 
+.testimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 211px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.testimonial .name,
+.testimonial .title {
+  position: relative;
+  z-index: 10;
+}
+.testimonial-pos {
+  position: absolute;
+  top: 115px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonial .circle-image img {
+  width: 100%;
+}
+
 @media (max-width: 1360px) {
   .nav ul li {
     padding: 0 30px;
@@ -770,6 +794,15 @@ a {
   }
   .arcticle-styles .article-btn {
     display: none;
+  }
+  .testimonial {
+    margin-top: 100px;
+  }
+  .testimonial .circle-image img {
+    width: 880px;
+  }
+  .testimonial .title {
+    text-align: center;
   }
 }
 @media (max-width: 1050px) {
