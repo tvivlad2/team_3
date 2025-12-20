@@ -7,6 +7,10 @@
 }
 .last-path {
   font-weight: 400;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .path img {
   width: 8px;
@@ -111,4 +115,33 @@
 .hashttags .tag {
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 1175px) {
+  .contentblog {
+    flex-direction: column;
+  }
+  .blogpost {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .content-right {
+    width: 100%;
+  }
+  .contentpost .group-image {
+    margin: 0;
+  }
+  .recent-article {
+    justify-content: start;
+  }
+}
+@media (max-width: 900px) {
+  .path {
+    margin-top: 0;
+  }
+}
+@media (max-width: 815px) {
+  .contentblog {
+    margin-bottom: 100px;
+  }
 }
