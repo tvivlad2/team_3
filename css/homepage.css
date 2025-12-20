@@ -178,11 +178,6 @@
 .testimonial .circle-image img {
   width: 100%;
 }
-
-.ourpricing .desc {
-  width: 600px;
-}
-
 .ourpricing {
   position: relative;
   z-index: 10;
@@ -453,34 +448,6 @@
   margin-top: 150px;
 }
 
-@media (max-width: 1380px) {
-  .ourpricing .left > div {
-    width: 95%;
-  }
-  .ourpricing .startfrom {
-    right: 2%;
-  }
-}
-@media (max-width: 1280px) {
-  .ourpricing .left {
-    width: 95%;
-  }
-  .ourpricing .left > div {
-    border: none;
-    padding-bottom: 50px;
-    border-bottom: 1px solid grey;
-  }
-  .ourpricing .startfrom {
-    right: 350px;
-  }
-  .price-add .price-text {
-    width: 90%;
-  }
-  .ourpricing .right {
-    width: 100%;
-    height: 400px;
-  }
-}
 @media (max-width: 1360px) {
   .section-man {
     position: relative;
@@ -500,6 +467,34 @@
     display: flex;
     justify-content: end;
     align-items: end;
+  }
+  .recentarticles {
+    width: 65%;
+  }
+}
+@media (max-width: 1200px) {
+  .price-list {
+    flex-direction: column;
+    padding-right: 42px;
+  }
+  .price-list .left {
+    width: 100%;
+    border-right: none;
+  }
+  .price-list .right {
+    margin-top: 50px;
+    height: 200px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .price-element-text .price-desc {
+    width: 100%;
+  }
+  .price-get-start {
+    left: -25px;
+  }
+  .ourtrusted {
+    margin-top: 250px;
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 1175px) {
@@ -522,6 +517,23 @@
   }
   .testimonial .title {
     text-align: center;
+  }
+
+  .recentarticles {
+    position: static;
+    width: 100%;
+  }
+  .popular-image {
+    width: 100%;
+  }
+  .popular-title {
+    margin-top: 40px;
+  }
+  .popular-article {
+    margin-bottom: 70px;
+  }
+  .arcticle-styles .article-btn {
+    display: none;
   }
 }
 @media (max-width: 900px) {
@@ -556,8 +568,59 @@
     margin-top: 100px;
   }
   .ourtrusted {
-    margin-top: 150px;
+    margin-top: 250px;
   }
   .ourtrusted .title {
     text-align: center;
   }
+}
+@media (max-width: 815px) {
+  .ourarticles {
+    margin-bottom: 100px;
+  }
+  .recentarticles {
+    padding: 20px 0 15px 15px;
+  }
+  .scroll-line {
+    right: 30px;
+  }
+  .vr-btn-group {
+    display: none;
+  }
+  .article-vr {
+    width: 85%;
+  }
+  .line-articles {
+    width: 85%;
+  }
+}
+@media (max-width: 630px) {
+  .why .right {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    left: -10px;
+  }
+  .section-man .left .title_desc .title {
+    font-size: 48px;
+  }
+  .section-man .left .title_desc .desc {
+    width: 70%;
+  }
+  .section-man .right {
+    right: -160px;
+  }
+  .aboutus .left .image img {
+    width: 390px;
+  }
+  .popular-image-text {
+    bottom: 30px;
+  }
+  .image-title {
+    font-size: 20px;
+  }
+  .tag_h {
+    font-size: 14px;
+  }
+}

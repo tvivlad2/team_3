@@ -5,6 +5,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   background: #18181b;
   font-family: "Chakra Petch";
@@ -311,6 +315,8 @@ body {
   border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
 
   border-image-slice: 1;
+
+  text-align: center;
 }
 
 .why {
@@ -502,6 +508,12 @@ body {
   font-weight: 300;
 }
 
+.seeall {
+  display: none;
+  justify-content: center;
+  margin-top: 45px;
+}
+
 @media (max-width: 1360px) {
   .nav ul li {
     padding: 0 30px;
@@ -528,6 +540,30 @@ body {
   .aboutus .right {
     margin-left: 0;
   }
+  .seeall {
+    display: flex;
+  }
+  .subscribe {
+    flex-direction: column;
+    padding: 31px 15px;
+  }
+  .subscribe .text {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer .logotype .icons > div:last-child {
+    margin-right: 0;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer .logotype {
+    margin-right: 10px;
+  }
+  .footer .quicks {
+    margin-right: 10px;
+  }
 }
 @media (max-width: 1050px) {
   .nav ul li {
@@ -553,5 +589,35 @@ body {
   }
   .aboutus {
     margin-top: 100px;
+  }
+  .subscribe {
+    margin-bottom: 100px;
+  }
+  .ourtrusted .trusted-image img {
+    width: 100%;
+  }
+  .copy {
+    margin: 0;
+  }
+  .footer .quicks {
+    margin-top: 60px;
+  }
+  .footer .support {
+    margin-top: 60px;
+  }
+  .footer .logotype {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+  }
+  .footer .need {
+    margin-top: 60px;
+  }
+  .footer .logotype .icons {
+    margin-top: 0;
+  }
+  .footer {
+    margin-bottom: 60px;
   }
 }
