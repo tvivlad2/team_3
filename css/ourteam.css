@@ -127,6 +127,12 @@
   .team-element {
     width: 70%;
   }
+  .information {
+    display: none;
+  }
+  .ourteam {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 815px) {
