@@ -119,4 +119,7 @@
   .ourteam {
     margin-bottom: 100px;
   }
+  .information {
+    display: none;
+  }
 }
