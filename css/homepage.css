@@ -532,9 +532,6 @@
   .popular-article {
     margin-bottom: 70px;
   }
-  .arcticle-styles .article-btn {
-    display: none;
-  }
 }
 @media (max-width: 900px) {
   .section-man .left .additional {

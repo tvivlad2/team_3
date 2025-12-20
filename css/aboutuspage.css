@@ -1,15 +1,15 @@
 .abus {
   margin-top: 190px;
   display: flex;
+  justify-content: space-between;
 }
 .abus .left {
-  width: 100%;
+  width: 40%;
 }
 .abus .left > div {
   text-align: start;
 }
 .abus .right {
-  width: 100%;
   display: flex;
   position: relative;
   justify-content: center;
@@ -17,12 +17,13 @@
 .abus .right img {
   position: relative;
   top: -50px;
+  width: 600px;
 }
 .abus .right .blur {
   width: 300px;
   height: 300px;
-  top: 25%;
-  left: 40%;
+  top: 20%;
+  left: 25%;
 }
 .ourteam .images {
   display: flex;
@@ -33,6 +34,12 @@
   width: 24%;
 }
 
+.faq .title {
+  text-align: center;
+}
+.faq > div > .desc {
+  width: 50%;
+}
 .faq .lists {
   display: flex;
   align-items: center;
@@ -59,4 +66,89 @@
   border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
 
   border-image-slice: 1;
+}
+
+.why {
+  flex-direction: row-reverse;
+}
+.ourteam {
+  margin-top: 200px;
+}
+.arcticle-styles .title {
+  text-align: start;
+}
+.ourtrusted {
+  margin-top: 100px;
+}
+.ourtrusted .title {
+  text-align: center;
+}
+@media (max-width: 1175px) {
+  .abus .right img {
+    width: 400px;
+    height: 570px;
+  }
+  .why {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .why .left {
+    width: 100%;
+    margin-top: 90px;
+  }
+  .faq > div > .desc {
+    width: 100%;
+  }
+  .faq .lists > div {
+    width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .abus .left {
+    width: 100%;
+  }
+  .abus {
+    flex-direction: column;
+  }
+  .abus .right {
+    margin-top: 40px;
+  }
+  .abus .right img {
+    top: 0;
+  }
+  .why .right {
+    width: 400px;
+    height: 505px;
+  }
+}
+@media (max-width: 815px) {
+  .abus .right img {
+    width: 350px;
+    height: 450px;
+  }
+  .abus .right {
+    justify-content: center;
+  }
+  .ourteam {
+    margin-top: 100px;
+  }
+  .ourteam .images {
+    align-items: center;
+    flex-direction: column;
+  }
+  .ourteam .images img {
+    width: 60%;
+    margin-bottom: 25px;
+  }
+  .arcticle-styles {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .arcticle-styles .title {
+    text-align: center;
+  }
+  .faq {
+    margin-bottom: 100px;
+  }
 }

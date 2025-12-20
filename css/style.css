@@ -390,7 +390,7 @@ body {
   width: 400px;
   height: 100px;
   top: 0;
-  left: 38%;
+  left: -100px;
   z-index: 1;
   transform: rotate(340deg);
   filter: blur(70px);
@@ -563,6 +563,9 @@ body {
   }
   .footer .quicks {
     margin-right: 10px;
+  }
+  .arcticle-styles .article-btn {
+    display: none;
   }
 }
 @media (max-width: 1050px) {
