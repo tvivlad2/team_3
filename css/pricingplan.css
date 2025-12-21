@@ -15,7 +15,8 @@
 }
 
 .container {
-    width: 1280px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -53,9 +54,9 @@
 }
 
 .pricing-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 60px;
 }
 
@@ -65,6 +66,8 @@
     border-radius: 7px;
     padding: 40px 30px;
     text-align: left;
+    width: 30%;
+    position: relative;
 }
 
 .pricing-card--featured {
@@ -115,28 +118,28 @@
     margin-bottom: 40px;
 }
 
-    .plan-features li {
-        color: white;
-        margin-bottom: 15px;
-        font-weight: 600;
-        padding-left: 30px;
-        position: relative;
-        font-size: 16px;
-        line-height: 1.5;
-    }
+.plan-features li {
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 600;
+    padding-left: 30px;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
-        .plan-features li::before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 5px;
-            width: 16px;
-            height: 16px;
-            background-image: url('../image/icon/marker-list.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
+.plan-features li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background-image: url('../image/icon/marker-list.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .trial-button {
     width: 100%;
@@ -157,146 +160,139 @@
 }
 
 .why {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
-    .why .right {
-        width: 45%;
-        margin-top: 100px;
+.faq .title {
+    text-align: center;
+}
+
+.faq>div>.desc {
+    width: 50%;
+}
+
+.faq .lists {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq .lists>div {
+    padding: 24px;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.faq .list-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.faq .list-drop {
+    border-top: 1px solid #ffffff59;
+    padding-top: 12px;
+}
+
+.faq .active {
+    border: 1px solid;
+
+    border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+
+    border-image-slice: 1;
+}
+
+@media (max-width: 1175px) {
+    .why {
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     .why .left {
-        width: 570px;
-        height: 660px;
-        position: relative;
-    }
-
-        .why .left img {
-            margin-top: -50px;
-        }
-
-    .why .lists .element {
         width: 100%;
-        margin-bottom: 48px;
+        margin-top: 90px;
     }
 
-        .why .lists .element .element-title {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-            .why .lists .element .element-title span {
-                font-size: 20px;
-                font-weight: 500;
-            }
-
-        .why .lists .element .element-title {
-            padding: 12px 0;
-            border-bottom: 1px solid #ffffff59;
-        }   
-
-        .why .lists .element .element-desc {
-            font-weight: 400;
-            color: #d1d1d1;
-            margin-top: 12px;
-        }
-
-.faq-section {
-    margin-top: 80px;
-    padding: 0 120px;
-}
-
-.faq-header {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-    .faq-header .name span {
-        background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: 600;
-        font-size: 16px;
-        text-transform: uppercase;
+    .faq>div>.desc {
+        width: 100%;
     }
 
-    .faq-header .title {
-        font-size: 48px;
-        font-weight: 700;
-        margin: 15px 0;
-        color: white;
+    .faq .lists>div {
+        width: 100%;
     }
 
-.faq-description {
-    max-width: 800px;
-    margin: 0 auto;
-    color: #D1D1D1;
-    font-size: 18px;
-    line-height: 1.6;
-    font-weight: 300;
-}
-
-.faq-items {
-    max-width: 830px;
-    margin: 0 auto;
-}
-
-.faq-item {
-    background: #252532;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 20px;
-    padding: 28px 32px;
-    width: 100%;
-}
-
-    .faq-item.active {
-        background: rgba(37, 37, 50, 0.8);
-        border: 1px solid;
-        border-image-source: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
-        border-image-slice: 1;
+    .pricing-section {
+        padding: 80px 40px 60px;
     }
 
-.faq-question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-    .faq-question::after {
-        content: '';
-        display: none;
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        right: 0;
-        height: 1px;
-        background: #FFFFFF59;
+    .container {
+        width: 100%;
     }
 
-.faq-item.active .faq-question::after {
-    display: block;
-}
-
-    .faq-question span {
-        font-size: 18px;
-        font-weight: 500;
-        color: white;
-        flex: 1;
-        padding-right: 20px;
+    .section-description {
+        width: 70%;
     }
 
-.faq-answer {
-    margin-top: 20px;
-    color: #B0B0B2;
-    font-size: 16px;
-    line-height: 1.6;
-    font-weight: 300;
-    display: none;
+    .pricing-cards {
+        justify-content: center;
+    }
+    
+    .pricing-card {
+        width: 50%;
+        margin: 0 40px;
+        margin-bottom: 40px;
+    }
 }
 
-.faq-item.active .faq-answer {
-    display: block;
+@media (max-width: 900px) {
+    .why .right {
+        width: 400px;
+        height: 505px;
+    }
+
+    .pricing-section {
+        padding: 60px 20px 40px;
+    }
+    
+    .section-subtitle {
+        font-size: 36px;
+    }
+    
+    .section-description {
+        width: 70%;
+    }
+    
+    .pricing-card {
+        width: 60%;
+        margin: 0 30px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 715px) {
+    pricing-section {
+        padding: 60px 20px 40px;
+    }
+    
+    .section-subtitle {
+        font-size: 32px;
+    }
+    
+    .section-description {
+        width: 100%;
+    }
+    
+    .pricing-cards {
+        justify-content: center;
+    }
+    
+    .pricing-card {
+        width: 100%;
+        margin: 0 30px;
+        margin-bottom: 40px;
+    }
+
+    .faq {
+        margin-bottom: 100px;
+    }
 }

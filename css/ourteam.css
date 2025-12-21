@@ -83,17 +83,6 @@
   margin-right: 0;
 }
 
-.information {
-  display: flex;
-  margin-top: 150px;
-  justify-content: space-around;
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #343445 0%,
-    rgba(32, 32, 41, 0) 100%
-  );
-}
-
 @media (max-width: 1175px) {
   .ourteam {
     display: flex;
@@ -127,10 +116,10 @@
   .team-element {
     width: 70%;
   }
-}
-
-@media (max-width: 815px) {
-  .information {
+  .ourteam {
     margin-bottom: 100px;
+  }
+  .information {
+    display: none;
   }
 }

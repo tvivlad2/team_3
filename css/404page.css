@@ -1,0 +1,190 @@
+/* =========================
+   404 PAGE — ISOLATED
+========================= */
+
+.error404 {
+  margin-top: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LEFT BLOCK */
+.error404 > .left {
+  width: 45%;
+}
+
+.error404 .error-code {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.error404 .title {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 12px 0 18px;
+}
+
+.error404 .desc {
+  font-weight: 300;
+  color: #d1d1d1;
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+
+.error404 .desc.small {
+  font-size: 14px;
+  color: #b0b0b2;
+}
+
+.error404 .error-list {
+  margin: 20px 0 24px 18px;
+  color: #b0b0b2;
+}
+
+.error404 .error-list li {
+  margin-bottom: 10px;
+}
+
+/* RIGHT BLOCK */
+.error404 > .right {
+  width: 55%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* BLUR */
+.error404 .blur {
+  position: absolute;
+  width: 360px;
+  height: 200px;
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+  filter: blur(120px);
+  transform: rotate(315deg);
+  top: 170px;
+  left: 70px;
+  z-index: 1;
+}
+
+/* CIRCLE */
+.error404 .circle {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #343445 0%,
+    rgba(32, 32, 41, 0) 100%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.error404 .circle img {
+  width: 360px;
+  height: auto;
+  transform: translateX(6px);
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1200px) {
+  .error404 .title {
+    font-size: 42px;
+  }
+
+  .error404 .circle {
+    width: 360px;
+    height: 360px;
+  }
+
+  .error404 .circle img {
+    width: 300px;
+  }
+}
+
+/* =========================
+   MOBILE — EXACT SCREENSHOT
+========================= */
+
+@media (max-width: 900px) {
+  .error404 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .error404 > .left,
+  .error404 > .right {
+    width: 100%;
+  }
+
+  .error404 > .right {
+    margin-top: 60px;
+    justify-content: center;
+  }
+
+  .error404 .error-list {
+    margin-left: 0;
+  }
+
+  .error404 .circle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .error404 .circle img {
+    width: 240px;
+    transform: none;
+  }
+
+  .error404 .blur {
+    width: 260px;
+    height: 160px;
+    top: 140px;
+    left: 40px;
+  }
+}
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 480px) {
+  .error404 {
+    margin-top: 140px;
+  }
+
+  .error404 .title {
+    font-size: 32px;
+  }
+
+  .error404 .desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .error404 .circle {
+    width: 240px;
+    height: 240px;
+  }
+
+  .error404 .circle img {
+    width: 210px;
+  }
+}
