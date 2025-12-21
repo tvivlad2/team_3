@@ -88,7 +88,9 @@
   border-image-slice: 1;
 }
 .information{
-	margin:auto;
+	margin-top: 150px;
+	margin-left:auto;
+	margin-right:auto;
 	display: flex;
 	position:relative;
 	width: 70%;
