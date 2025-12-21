@@ -1,0 +1,233 @@
+.nav ul li:nth-child(4) {
+    font-weight: 600;
+}
+
+.nav ul li:first-child {
+    font-weight: 300;
+}
+
+.content-with-images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    margin-top: 150px;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.center-content {
+    flex: 1;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.side-image {
+    flex-shrink: 0;
+    width: 360px;
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.side-image.left {
+    left: -125px;
+    transform: scaleX(-1);
+    position: absolute;
+}
+
+.side-image.right {
+    right: -100px;
+    position: absolute;
+}
+
+.side-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(180deg,
+            rgba(24, 24, 27, 0),
+            rgba(24, 24, 27, 0.5),
+            rgba(24, 24, 27, 1),
+            rgba(24, 24, 27, 1));
+    z-index: 2;
+}
+
+.side-image img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 10px;
+    object-fit: contain;
+    display: block;
+}
+
+.center-content .section-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 14%;
+    background: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.center-content .section-subtitle {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.center-content .section-description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #D1D1D1;
+    max-width: 650px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.center-content .section-text {
+    align-self: flex-start;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #D1D1D1;
+}
+
+.center-content .section-text_tit {
+    align-self: flex-start;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.center-content .section-text-list {
+    align-self: flex-start;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    color: #D1D1D1;
+    margin-top: 10px;
+    padding-left: 20px;
+    line-height: 28px;
+}
+
+@media (max-width: 1175px) {
+    .content-with-images {
+        gap: 40px;
+        margin-top: 100px;
+    }
+
+    .side-image {
+        width: 250px;
+        height: 360px;
+    }
+
+    .side-image.left {
+        left: -90px;
+    }
+
+    .center-content {
+        max-width: 90%;
+    }
+
+    .side-image.right {
+        right: -90px;
+    }
+
+    .center-content .section-subtitle {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content-with-images {
+        gap: 40px;
+        margin-top: 100px;
+    }
+
+    .side-image {
+        width: 180px;
+        height: 250px;
+    }
+
+    .side-image.left {
+        left: -60px;
+    }
+
+    .center-content {
+        max-width: 90%;
+    }
+
+    .side-image.right {
+        right: -60px;
+    }
+
+    .center-content .section-subtitle {
+        font-size: 36px;
+    }
+
+    
+}
+
+@media(max-width: 815px) {
+    .subscribe {
+        margin-top: 150px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .content-with-images {
+        margin-top: 80px;
+        padding: 0 16px;
+    }
+
+    .side-image {
+        width: 125px;
+        height: 170px;
+    }
+
+    .side-image.left {
+        left: -40px;
+    }
+
+    .side-image.right {
+        right: -40px;
+    }
+
+    .center-content {
+        max-width: 100%;
+    }
+
+    .center-content .section-subtitle {
+        font-size: 28px;
+    }
+
+    .center-content .section-description {
+        max-width: 90%;
+    }
+
+    
+}
