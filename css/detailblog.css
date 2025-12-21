@@ -1,0 +1,147 @@
+.path > * {
+  margin-right: 5px;
+}
+.path {
+  font-weight: 600;
+  margin: 50px 0;
+}
+.last-path {
+  font-weight: 400;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.path img {
+  width: 8px;
+  height: 8px;
+}
+
+.contentblog {
+  display: flex;
+  justify-content: space-between;
+}
+.blogpost {
+  width: 70%;
+}
+.blogpost .name {
+  line-height: 100%;
+  letter-spacing: 14%;
+}
+.contentpost {
+  margin-top: 25px;
+}
+.contentpost img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contentpost .desc {
+  margin-bottom: 25px;
+}
+.contentpost .group-image {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.contentpost .group-image img {
+  width: 48%;
+}
+.posttitle {
+  margin-bottom: 12px;
+}
+.tags-text {
+  background: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 20px;
+}
+.share-group-image {
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-right {
+  width: 25%;
+}
+.recentarticle {
+  z-index: 10;
+  position: relative;
+}
+.recent-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.recent-article {
+  display: flex;
+  justify-content: space-between;
+}
+.article-image img {
+  width: 120px;
+}
+
+.article-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-left: 15px;
+}
+.article-title-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.recents {
+  margin-top: 25px;
+}
+.recent-line {
+  height: 1px;
+  border: 0.72px solid #ffffff26;
+  background: #ffffff26;
+  margin: 25px 0;
+}
+
+.popularhashtags {
+  margin-top: 65px;
+}
+.popularhashtags .recent-title {
+  margin-bottom: 25px;
+}
+.hashttags {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hashttags .tag {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1175px) {
+  .contentblog {
+    flex-direction: column;
+  }
+  .blogpost {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .content-right {
+    width: 100%;
+  }
+  .contentpost .group-image {
+    margin: 0;
+  }
+  .recent-article {
+    justify-content: start;
+  }
+}
+@media (max-width: 900px) {
+  .path {
+    margin-top: 0;
+  }
+}
+@media (max-width: 815px) {
+  .contentblog {
+    margin-bottom: 100px;
+  }
+}
