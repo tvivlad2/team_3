@@ -114,7 +114,7 @@ a {
   width: 80%;
   height: 60%;
   top: 250px;
-  z-index: 1;
+  z-index: 2;
 
   background: linear-gradient(
     98.54deg,
@@ -123,6 +123,20 @@ a {
   );
   filter: blur(105px);
   transform: rotate(-90deg);
+}
+.blur1 {
+	position: absolute;
+  width: 70%;
+  height: 90%;
+	left: 12%;
+	top: 0px;
+  z-index: 1;
+  background: linear-gradient(
+    1.30deg,
+    rgba(28, 196, 249, 0.4) 2.72%,
+    rgba(254, 105, 254, 0.9) 90.69%
+  );
+  transform: rotate(20deg);
 }
 
 .backgroundForBlocks {
@@ -391,13 +405,13 @@ a {
   margin-bottom: 30px;
 }
 .namepage .blur {
-  width: 400px;
+  width: 350px;
   height: 100px;
   top: 0;
-  left: -100px;
+  left: -75px;
   z-index: 1;
-  transform: rotate(340deg);
-  filter: blur(70px);
+  transform: rotate(345deg);
+  filter: blur(42px);
 }
 .namepage .location {
   display: flex;
