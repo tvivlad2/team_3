@@ -16,14 +16,6 @@
 .ourservice .right {
   position: relative;
 }
-.ourservice .blur {
-  height: 150px;
-  width: 300px;
-  top: 0;
-  left: 70%;
-  right: 0;
-  transform: rotate(315deg);
-}
 .ourservice .block {
   width: 95%;
   position: relative;
@@ -88,23 +80,11 @@
   border-image-slice: 1;
 }
 .information{
-	margin-top: 150px;
 	margin-left:auto;
 	margin-right:auto;
-	display: flex;
 	position:relative;
 	width: 70%;
-	justify-content: center;
 }	
-.information_back{
-	position:absolute;
-	width:75%;
-	top:30px;
-	height:15%;
-	background-color:#C4A6FD;
-	filter: blur(50px);
-}
-
 .happyclients, .projectcomplete, .experience{
 	margin-left: auto;
 	margin-right: auto;
