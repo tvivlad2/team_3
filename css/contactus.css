@@ -91,6 +91,79 @@
 
   border-image-slice: 1;
 }
+.feedback{
+	margin-top:150px;
+	position: relative;
+	display: flex;
+}
+.feedback .left{
+	align-content: center;
+	width:50%;
+}
+.outterBorder{
+	position:relative;
+	align-items: center;
+	justify-content: center;
+	border-radius:50%;
+	border: 1px solid;
+	margin: auto;
+}
+.innerBorder{
+	justify-content: center;
+	border-radius: 50%;
+	border: 1px solid;
+	display: flex; 
+	align-items: center;
+	
+}
+.manUs{
+	position:relative;
+	height: 540px;
+	background: #25253299;
+	width:80%;
+	border-radius: 50%;
+	border: 1px solid;
+}
+.manUs img{
+	position: absolute;
+	width:100%;
+	top:-20%;
+}
+.feedback .left .blur{
+	position: absolute;
+  width: 50%;
+  height: 25%; 
+  top: 350px;
+/*  left: px;*/
+  z-index: 1;
+  transform: rotate(345deg);
+  filter: blur(42px);
+}
+.feedback .right{
+	position:relative;
+	width: 50%;
+}
+.right .forms{
+	position:relative;
+	width:200px;
+}
+.forms input{
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.5;
+  color: Greyscale/Grey 2;
+  background-color: Greyscale/Grey 2;
+  background-clip: padding-box;
+  border: 1px solid #25253299;
+  border-radius: 4px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.forms .btn{
+	color:white;
+}
 .maps{
 	margin-top:150px;
 	display:flex;

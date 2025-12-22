@@ -16,14 +16,6 @@
 .ourservice .right {
   position: relative;
 }
-.ourservice .blur {
-  height: 150px;
-  width: 300px;
-  top: 0;
-  left: 70%;
-  right: 0;
-  transform: rotate(315deg);
-}
 .ourservice .block {
   width: 95%;
   position: relative;
