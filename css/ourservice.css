@@ -88,23 +88,11 @@
   border-image-slice: 1;
 }
 .information{
-	margin-top: 150px;
 	margin-left:auto;
 	margin-right:auto;
-	display: flex;
 	position:relative;
 	width: 70%;
-	justify-content: center;
 }	
-.information_back{
-	position:absolute;
-	width:75%;
-	top:30px;
-	height:15%;
-	background-color:#C4A6FD;
-	filter: blur(50px);
-}
-
 .happyclients, .projectcomplete, .experience{
 	margin-left: auto;
 	margin-right: auto;
