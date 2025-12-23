@@ -596,7 +596,6 @@ a {
 }
 .ourservice .blocks .column .backgroundForBlocks:hover {
   border: 1px solid;
-
   border-image-source: linear-gradient(90deg, #0cbaf1 0%, #e95ce9 100%);
   border-image-slice: 1;
 }
