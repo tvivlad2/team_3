@@ -69,7 +69,6 @@
   filter: blur(120px);
   transform: rotate(315deg);
   top: 170px;
-  left: 70px;
   z-index: 1;
 }
 
